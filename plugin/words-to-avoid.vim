@@ -1,13 +1,3 @@
-" Highlight words to avoid in tech writing
-" =======================================
-"
-" obviously, basically, simply, of course, clearly,
-" just, everyone knows, However, So, easy
-"
-" http://css-tricks.com/words-avoid-educational-writing/
-"
-" Thanks to https://github.com/pengwynn/dotfiles/blob/master/vim/vimrc.symlink
-
 function MatchTechWordsToAvoid()
   highlight TechWordsToAvoid ctermbg=red ctermfg=white guibg=red guifg=white
   match TechWordsToAvoid /\c\<\(obviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however\|so,\|easy\)\>/
