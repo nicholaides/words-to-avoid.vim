@@ -3,8 +3,10 @@
 "
 " obviously, basically, simply, of course, clearly,
 " just, everyone knows, However, So, easy
-
+"
 " http://css-tricks.com/words-avoid-educational-writing/
+"
+" Thanks to https://github.com/pengwynn/dotfiles/blob/master/vim/vimrc.symlink
 
 highlight TechWordsToAvoid ctermbg=red ctermfg=white
 
