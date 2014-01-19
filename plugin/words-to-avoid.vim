@@ -8,9 +8,8 @@
 "
 " Thanks to https://github.com/pengwynn/dotfiles/blob/master/vim/vimrc.symlink
 
-highlight TechWordsToAvoid ctermbg=red ctermfg=white
-
 function MatchTechWordsToAvoid()
+  highlight TechWordsToAvoid ctermbg=red ctermfg=white guibg=red guifg=white
   match TechWordsToAvoid /\c\<\(obviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however\|so,\|easy\)\>/
 endfunction
 
