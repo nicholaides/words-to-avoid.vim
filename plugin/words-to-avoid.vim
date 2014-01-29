@@ -1,6 +1,6 @@
 function MatchTechWordsToAvoid()
   highlight TechWordsToAvoid ctermbg=red ctermfg=white guibg=red guifg=white
-  match TechWordsToAvoid /\c\<\(obviously\|basically\|simply\|of\scourse\|clearly\|just\|everyone\sknows\|however\|so,\|easy\)\>/
+  match TechWordsToAvoid /\c\<\(obviously\|basically\|simply\|of\scourse\|clearly\|\(\W\)\@<=just\(\W\)\@=\(\W\)\@<!\|everyone\sknows\|however\|so,\|easy\)\>/
 endfunction
 
 autocmd FileType markdown call MatchTechWordsToAvoid()
