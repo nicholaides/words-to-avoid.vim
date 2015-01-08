@@ -29,7 +29,7 @@ Without a package manager:
 curl -sSL https://raw.githubusercontent.com/nicholaides/words-to-avoid.vim/master/plugin/words-to-avoid.vim > ~/.vim/plugin/words-to-avoid.vim
 ```
 
-With [Vundle](git@github.com:zamith/words-to-avoid.vim.git):
+With [Vundle](https://github.com/gmarik/Vundle.vim):
 
 ```
 Plugin 'nicholaides/words-to-avoid.vim'
