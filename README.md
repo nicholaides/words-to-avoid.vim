@@ -23,6 +23,20 @@ Thanks to:
 Install
 -------
 
+Without a package manager:
+
 ```
 curl -sSL https://raw.githubusercontent.com/nicholaides/words-to-avoid.vim/master/plugin/words-to-avoid.vim > ~/.vim/plugin/words-to-avoid.vim
+```
+
+With [Vundle](git@github.com:zamith/words-to-avoid.vim.git):
+
+```
+Plugin 'nicholaides/words-to-avoid.vim'
+```
+
+With [Plug](https://github.com/junegunn/vim-plug):
+
+```
+Plug 'nicholaides/words-to-avoid.vim'
 ```
